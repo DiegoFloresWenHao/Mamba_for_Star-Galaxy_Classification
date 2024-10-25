@@ -8,6 +8,8 @@ Welcome to Mamba, a sophisticated repository leveraging the State Space Model to
 
 This repository implements the State Space Model to classify stellar sources such as stars and galaxies. The dataset utilized for this project was made open-source by the Aryabhatta Research Institute of Observational Sciences (ARIES), Nainital, India, using their in-house 1.3m telescope. This github repository uses the code given by the paper "MedMamba: Vision Mamba for Medical Image Classification" https://arxiv.org/abs/2403.03849
 
+For a complete and well detailed presentation of Mamba's training and testing please refer to this Kaggle Notebook https://www.kaggle.com/code/diegoexe/mamba-for-star-galaxy-classification-91-45-acc
+
 # 🗂 Dataset Description
 
 The dataset was created as part of a project at ARIES and involves images captured by the 1.3m telescope situated in Devasthal, Nainital, India.
