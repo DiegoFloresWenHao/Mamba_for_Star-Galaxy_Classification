@@ -1,14 +1,14 @@
-# Mamba for Star Galaxy Classification
+# 🐍 Mamba for Star Galaxy Classification
 
 Mamba: is a new state space model architecture showing promising performance on information-dense data such as language modeling, where previous subquadratic models fall short of Transformers. It is based on the line of progress on structured state space models, with an efficient hardware-aware design and implementation in the spirit of FlashAttention. https://arxiv.org/abs/2312.00752
 
-Welcome to Mamba, a sophisticated repository leveraging the State Space Model to classify stars and galaxies using an astronomical dataset. This project not only opens the gates to cosmic exploration but also challenges the frontiers of computer vision in astronomical research.
+Welcome to Mamba for Star and Galaxy Classification, a repository dedicated to the State Space Model trained to classify stars and galaxies using an astronomical dataset. This project not only broadens the gates of cosmic exploration using machine learning but also challenges the frontiers of computer vision in astronomical research.
 
 # 📌 Overview
 
 This repository implements the State Space Model to classify stellar sources such as stars and galaxies. The dataset utilized for this project was made open-source by the Aryabhatta Research Institute of Observational Sciences (ARIES), Nainital, India, using their in-house 1.3m telescope. This github repository uses the code given by the paper "MedMamba: Vision Mamba for Medical Image Classification" https://arxiv.org/abs/2403.03849
 
-For a complete and well detailed presentation of Mamba's training and testing please refer to this Kaggle Notebook https://www.kaggle.com/code/diegoexe/mamba-for-star-galaxy-classification-91-45-acc
+For a complete and well detailed presentation of Mamba's training and testing please refer to this Kaggle Notebook https://www.kaggle.com/code/diegoexe/mamba4star-galaxy-classification-91-45-val-acc
 
 # 🗂 Dataset Description
 
@@ -43,3 +43,15 @@ Galaxies
 
 
 Find more information about the dataset https://www.kaggle.com/datasets/divyansh22/dummy-astronomy-data
+
+# Results
+
+As described in the Kaggle notebook in the link attached, the dataset was set up for a random split of the data with a ratio of 80:20 (80% for training and 20% for validation). The main challenge of the classification task lies on the low resolution of the images presented and the considerable imbalance presented by the classes in the dataset. Therefore heavy data augmentation and weights corresponting to the classes were needed, this concluding on a 91.45% validation accuracy as well as the following metrics:
+
+
++--------+-----------+--------+-------------+
+|        | Precision | Recall | Specificity |
++--------+-----------+--------+-------------+
+| galaxy |   0.853   | 0.771  |    0.959    |
+|  star  |   0.931   | 0.959  |    0.771    |
++--------+-----------+--------+-------------+
