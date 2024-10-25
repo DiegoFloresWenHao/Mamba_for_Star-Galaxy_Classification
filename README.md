@@ -1,4 +1,4 @@
-# 🐍 Mamba for Star Galaxy Classification
+# 🐍 Mamba for Star and Galaxy Classification
 
 Mamba: is a new state space model architecture showing promising performance on information-dense data such as language modeling, where previous subquadratic models fall short of Transformers. It is based on the line of progress on structured state space models, with an efficient hardware-aware design and implementation in the spirit of FlashAttention. https://arxiv.org/abs/2312.00752
 
@@ -14,7 +14,7 @@ For a complete and well detailed presentation of Mamba's training and testing pl
 
 The dataset was created as part of a project at ARIES and involves images captured by the 1.3m telescope situated in Devasthal, Nainital, India.
 
-Classes: Starts and Galaxies
+Classes: Stars and Galaxies
 
 Dataset Size: 3986 total images, 3044 stars and 942 galaxies
 
