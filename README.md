@@ -46,12 +46,12 @@ Find more information about the dataset https://www.kaggle.com/datasets/divyansh
 
 # Results
 
-As described in the Kaggle notebook in the link attached, the dataset was set up for a random split of the data with a ratio of 80:20 (80% for training and 20% for validation). The main challenge of the classification task lies on the low resolution of the images presented and the considerable imbalance presented by the classes in the dataset. Therefore heavy data augmentation and weights corresponting to the classes were needed, this concluding on a 91.45% validation accuracy as well as the following metrics:
+As described in the Kaggle notebook in the link attached, the dataset was set up for a random split of the data with a ratio of 80:20 (80% for training and 20% for validation). The main challenge of the classification task lies on the low resolution of the images presented and the considerable imbalance presented by the classes in the dataset. Therefore heavy data augmentation and weights corresponting to the classes were needed, this concluding on a 91.45% validation accuracy as well as the following metrics on the validation set:
 
 
-+--------+-----------+--------+-------------+
-|        | Precision | Recall | Specificity |
-+--------+-----------+--------+-------------+
-| galaxy |   0.853   | 0.771  |    0.959    |
-|  star  |   0.931   | 0.959  |    0.771    |
-+--------+-----------+--------+-------------+
+
+![Screen Shot 2024-10-25 at 17 57 20](https://github.com/user-attachments/assets/ca1ae9c4-df90-493c-86c4-9b018d8077a0)
+
+
+
+
